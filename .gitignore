@@ -40,7 +40,10 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+<<<<<<< HEAD
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
+=======
+>>>>>>> b4e5e5554c9db66572abf746d00fd04adf07282a
