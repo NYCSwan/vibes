@@ -1,0 +1,18 @@
+<h1 class="user-dash"><%= current_user.username %>'s Dashboard</h1>
+
+<div>
+	<%= form_for @dashboard.new_text_shout do |form| %>
+		<%= form.text_field :body, placeholder: "Shout about it!"%>
+		<%= form.submit 'Shout'%>
+	<% end %>
+</div>
+
+<div>
+	<%= form_for @dashboard.new_photo_shout do |form| %>
+		<%= form.file_field :image, placeholder: "Post a shout-Y photo!"%>
+		<%= form.submit 'Shout'%>
+	<% end %>
+</div>
+
+<%= render @dashboard.timeline %>
+

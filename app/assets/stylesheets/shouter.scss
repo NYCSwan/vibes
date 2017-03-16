@@ -1,0 +1,31 @@
+body {
+	width: 100%;
+	background-color: white; 
+
+}
+.navbar {
+	list-style: none;
+	text-decoration: none;
+	background-color: black;
+	opacity: 0.7;
+}
+.shout {
+	padding: 10%;
+	border-top: 1px solid #EEE;
+	width: 350px;
+	margin:0 auto;
+}
+.user-dash{
+	color: grey;
+}
+
+.timeline {
+	/*background-image: url('background.jpg');*/
+	max-width: 750px;
+	margin: 0 auto;
+}
+.shout-body {
+	height: 20%;
+	width: 300px;
+	background-color: green;
+}

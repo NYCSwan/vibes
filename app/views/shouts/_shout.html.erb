@@ -1,0 +1,8 @@
+<%= div_for shout, class: "shout-body" do %>
+	<div>
+		<%= render shout.content %>
+	</div>
+	<%= gravatar shout.user %>
+	<%= shout.user.username %> SHOUTS: 
+	<%= link_to time_ago_in_words(shout.updated_at), shout %>
+<% end %>
